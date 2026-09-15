@@ -261,6 +261,7 @@ be a reference, not a second home for the same entity.
 | `domains/vehicles` | **first pass done** — manifest, seed, 8 tools, `vehicle-walk` skill, tests (`tests/test_vehicles_domain.py`) |
 | Cross-domain references (§4) | proposed — ADR-017 |
 | KittenKong reads its domain from the catalog | not started — the TypeScript client still hard-codes the house tools |
+| `domains/musician` | **proposed, not built** — ADR-019 (vocabulary), ADR-020 (setlists as ordered sequences); vocabulary not yet exercised by a real walk |
 
 The second domain is **`vehicles`**, not `garage`: `garage` is a room name in
 the house domain and in the live graph, so it would collide with an entity name

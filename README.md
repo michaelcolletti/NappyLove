@@ -190,6 +190,7 @@ Being precise, because the temporal work is real but mostly unreleased:
 | `snapshot(T)`, `diff(T1,T2)`, `at` on every read | **designed, not built** |
 | Second domain (`vehicles`) instantiated | **first pass shipped** — [domains/vehicles](domains/vehicles/README.md), [ADR-016](docs/adr/ADR-016-vehicles-domain.md) (vocabulary under review): manifest, seed, eight declared tools, the `vehicle-walk` skill; runs alongside the house as its own process ([ADR-018](docs/adr/ADR-018-multi-domain-hosting.md)) |
 | Cross-domain references — time-stamped links between separate back ends | **proposed** ([ADR-017](docs/adr/ADR-017-cross-domain-references.md)) |
+| Third domain (`musician`) drafted — bands, gigs, songs, ordered setlists | **proposed, not built** ([ADR-019](docs/adr/ADR-019-musician-domain.md), setlist ordering: [ADR-020](docs/adr/ADR-020-setlists-as-ordered-sequences.md)) |
 | Vector similarity via sqlite-vec | **deferred** — conditional on embeddings having an owner |
 
 The v3 cutover is a **hard** one: no compatibility window, no version
